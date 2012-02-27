@@ -1,0 +1,11 @@
+= Android Platform Training
+
+27 Feb 2012
+
+*Ken Jones*, +<ken@marakana.com>+
+http://marakana.com[Marakana, Inc.]
+
+To clone:
+
+	git@github.com:KenJonesCA/platform-2012-02-27.git
+
