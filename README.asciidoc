@@ -7,5 +7,5 @@ http://marakana.com[Marakana, Inc.]
 
 To clone:
 
-	git@github.com:KenJonesCA/platform-2012-02-27.git
+	git clone git@github.com:KenJonesCA/platform-2012-02-27.git
 
