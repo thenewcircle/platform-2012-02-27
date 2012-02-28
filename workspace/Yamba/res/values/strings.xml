@@ -3,5 +3,7 @@
 
     <string name="hello">Hello, Ken!</string>
     <string name="app_name">Yamba</string>
+    <string name="activity_status_title">Status Update</string>
+    <string name="button_update_text">Update Status</string>
 
 </resources>

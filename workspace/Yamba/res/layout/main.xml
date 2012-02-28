@@ -5,8 +5,26 @@
     android:orientation="vertical" >
 
     <TextView
-        android:layout_width="fill_parent"
+        style="@style/activity_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:layout_gravity="center_horizontal"
+        android:text="@string/activity_status_title" />
+
+    <EditText
+        android:id="@+id/edit_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_update_text" />
 
 </LinearLayout>
