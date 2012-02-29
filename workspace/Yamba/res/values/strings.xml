@@ -7,5 +7,11 @@
     <string name="button_update_text">Update Status</string>
     <string name="post_status_success">Posted message successfully</string>
     <string name="post_status_fail">Failed to post message</string>
+    <string name="pref_user_key">PREF_USER</string>
+    <string name="pref_user_title">User Name</string>
+    <string name="pref_password_key">PREF_PASSWORD</string>
+    <string name="pref_password_title">Password</string>
+    <string name="menu_preferences_title">Settings</string>
+    <string name="menu_preferences_title_cond">Settings</string>
 
 </resources>
