@@ -2,9 +2,9 @@ package com.marakana.android.yamba;
 
 import winterwell.jtwitter.Twitter;
 import winterwell.jtwitter.TwitterException;
-import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class StatusActivity extends Activity implements OnClickListener {
+public class StatusActivity extends FragmentActivity implements OnClickListener {
     private static final String TAG = "StatusActivity";
     
     private Twitter twitter;
@@ -41,7 +41,7 @@ public class StatusActivity extends Activity implements OnClickListener {
 //        System.setProperty("http.proxyUser", "user");
 //        System.setProperty("http.proxyPassword", "password");
         
-        twitter = new Twitter("student", "password-bad");
+        twitter = new Twitter("student", "password");
         twitter.setAPIRootUrl("http://yamba.marakana.com/api");
     }
 
