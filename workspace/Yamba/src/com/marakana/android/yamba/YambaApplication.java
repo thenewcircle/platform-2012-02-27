@@ -17,6 +17,7 @@ public class YambaApplication extends Application
     private SharedPreferences prefs;
     private String mPrefUserKey;
     private String mPrefPasswordKey;
+    private String mPrefSiteUrlKey;
     
 	/**
 	 * Returns a typed reference to the custom Application object.
@@ -48,6 +49,7 @@ public class YambaApplication extends Application
 		// Read our preference key strings from our string resources.
 		mPrefUserKey = getString(R.string.pref_user_key);
 		mPrefPasswordKey = getString(R.string.pref_password_key);
+		mPrefSiteUrlKey = getString(R.string.pref_site_url_key);
 	}
 
 	@Override
@@ -86,10 +88,11 @@ public class YambaApplication extends Application
 			// Read latest preference values.
 			String user = prefs.getString(mPrefUserKey, null);
 			String password = prefs.getString(mPrefPasswordKey, null);
+			String url = prefs.getString(mPrefSiteUrlKey, null);
 			
 			// Create a new Twitter object using the preference values.
 	        twitter = new Twitter(user, password);
-	        twitter.setAPIRootUrl("http://yamba.marakana.com/api");
+	        twitter.setAPIRootUrl(url);
 		}
 		return twitter;
 	}

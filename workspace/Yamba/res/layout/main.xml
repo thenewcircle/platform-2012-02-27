@@ -14,7 +14,7 @@
         android:text="@string/activity_status_title" />
 
     <fragment
-        android:id="@+id/fragment1"
+        android:id="@+id/compose_fragment"
         android:name="com.marakana.android.yamba.ComposeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >

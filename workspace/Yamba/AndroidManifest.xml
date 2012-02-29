@@ -3,7 +3,7 @@
 	package="com.marakana.android.yamba" android:versionCode="1"
 	android:versionName="1.0">
 
-	<uses-sdk android:minSdkVersion="7"/>
+	<uses-sdk android:minSdkVersion="7" android:targetSdkVersion="11"/>
 
 	<uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,8 +17,7 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
-
-		<activity android:name="UserPrefsActivity" />
+		<activity android:name="UserPrefsActivity"></activity>
 
 	</application>
 
