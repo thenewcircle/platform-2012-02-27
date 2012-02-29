@@ -9,3 +9,6 @@ To clone:
 
 	git clone git://github.com/marakana/platform-2012-02-27.git
 
+== Useful Links
+
+Encrypting preference items: http://stackoverflow.com/questions/5858790/process-the-value-of-preference-before-save-in-android
