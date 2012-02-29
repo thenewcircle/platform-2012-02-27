@@ -50,4 +50,14 @@ Thumbs.db
 *ApiDemos*
 Home/*
 
+# Android files #
+#################
+
+*.dex
+*.apk
+*.ap_
+
+# But keep #
+############
+
 !jtwitter.jar
