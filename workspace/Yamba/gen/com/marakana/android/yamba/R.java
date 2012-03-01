@@ -25,6 +25,7 @@ public final class R {
         public static final int compose_fragment=0x7f080002;
         public static final int edit_msg=0x7f080000;
         public static final int menu_preferences=0x7f080003;
+        public static final int menu_refresh=0x7f080004;
     }
     public static final class layout {
         public static final int compose_fragment=0x7f030000;
@@ -40,6 +41,8 @@ public final class R {
         public static final int hello=0x7f050000;
         public static final int menu_preferences_title=0x7f05000a;
         public static final int menu_preferences_title_cond=0x7f05000b;
+        public static final int menu_refresh_title=0x7f050010;
+        public static final int menu_refresh_title_cond=0x7f050011;
         public static final int post_status_fail=0x7f050005;
         public static final int post_status_success=0x7f050004;
         public static final int pref_password_key=0x7f050008;

@@ -17,5 +17,7 @@
     <string name="pref_site_url_title">Site URL</string>
     <string name="pref_site_url_summary">Enter the URL to access your microblogging site</string>
     <string name="pref_site_url_default">http://yamba.marakana.com/api</string>
+    <string name="menu_refresh_title">Refresh</string>
+    <string name="menu_refresh_title_cond">Refresh</string>
 
 </resources>

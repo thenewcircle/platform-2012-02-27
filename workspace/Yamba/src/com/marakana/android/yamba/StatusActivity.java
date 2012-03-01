@@ -31,16 +31,23 @@ public class StatusActivity extends FragmentActivity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+		Intent intent;
 		int id = item.getItemId();
 		switch (id) {
 		case R.id.menu_preferences:
 			
 			// The user selected our activity's Settings item.
 			// Start the UserPrefsActivity.
-			Intent intent = new Intent(this, UserPrefsActivity.class);
+			intent = new Intent(this, UserPrefsActivity.class);
 			startActivity(intent);
 			
 			// Return true to indicate we handled the item.
+			return true;
+		case R.id.menu_refresh:
+			
+			// Refresh the timeline by starting the UpdaterService
+			intent = new Intent(this, UpdaterService.class);
+			startService(intent);
 			return true;
 		default:
 			
