@@ -14,3 +14,5 @@ To clone:
 Android Porting Guide (obsolete!): http://www.kandroid.org/online-pdk/guide/index.html
 
 Encrypting preference items: http://stackoverflow.com/questions/5858790/process-the-value-of-preference-before-save-in-android
+
+CyanogenMod, an alternative Android system image: http://www.cyanogenmod.com/
